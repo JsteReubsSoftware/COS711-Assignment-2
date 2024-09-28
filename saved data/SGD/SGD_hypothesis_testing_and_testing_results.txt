@@ -1,0 +1,26 @@
+Testing Hypothesis between Learning Rate 0.001 and Learning Rate 0.01:
+T-Statistic: -3.4120
+P-Value: 0.0302
+Is the difference statistically significant? Yes
+Testing Hypothesis between Learning Rate 0.001 and Learning Rate 0.015:
+T-Statistic: -4.1061
+P-Value: 0.0159
+Is the difference statistically significant? Yes
+Testing Hypothesis between Learning Rate 0.01 and Learning Rate 0.015:
+T-Statistic: -0.4437
+P-Value: 0.6804
+Is the difference statistically significant? No
+Testing Hypothesis between Hidden Layers [64, 32] and Hidden Layers [128, 64, 32]:
+T-Statistic: -0.7475
+P-Value: 0.4971
+Is the difference statistically significant? No
+Testing Hypothesis between Hidden Layers [64, 32] and Hidden Layers [256, 128, 64, 32]:
+T-Statistic: -1.4399
+P-Value: 0.2248
+Is the difference statistically significant? No
+Testing Hypothesis between Hidden Layers [128, 64, 32] and Hidden Layers [256, 128, 64, 32]:
+T-Statistic: -0.6528
+P-Value: 0.5495
+Is the difference statistically significant? No
+Test Accuracy: 0.8199643493761141
+Test Loss: 1.2923849821090698
